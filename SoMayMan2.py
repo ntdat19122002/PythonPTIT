@@ -4,7 +4,7 @@ def check(n):
             return False
     return True
 
-T = int(input())
+T = int( input() )
 for t in range(T):
     n = input()
     if(check(n)):
